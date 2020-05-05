@@ -5,6 +5,7 @@ package com.gxg.ex1;
 public class MinXORValue {
 /**
  * https://www.geeksforgeeks.org/find-the-minimum-value-of-the-given-expression-over-all-pairs-of-the-array/
+ * find the minimum value of the given expression over all pairs of the array
  * Input:  A = [1, 2, 3, 4, 5]
 Output:  1
 Explanation: 
