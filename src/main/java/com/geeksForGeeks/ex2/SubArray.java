@@ -1,4 +1,4 @@
-package com.gxg.ex2;
+package com.geeksForGeeks.ex2;
 
 import java.util.ArrayList;
 import java.util.List;
