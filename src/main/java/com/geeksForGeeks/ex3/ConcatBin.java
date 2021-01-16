@@ -1,4 +1,4 @@
-package com.ex1;
+package com.geeksForGeeks.ex3;
 
 import java.math.BigInteger; 
 

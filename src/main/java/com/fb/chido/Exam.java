@@ -16,9 +16,10 @@ public class Exam {
 	public static List<List<String>> matchEmails(List<List<String>> listoflist) {
 		Map<String, List<String>> map = new HashMap<>();
 		for (List<String> list : listoflist) {
-			for (String item : list) {
+			for (int cont=0;cont<list.size();cont++) {
+				String item="";
 				if (!map.containsKey(item)) {
-					map.put(item,  list);
+					map.put(item,null);
 				} else {
 					List<String> temp = map.get(item);
 					temp.addAll(list);
